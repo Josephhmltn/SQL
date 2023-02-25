@@ -15,6 +15,10 @@ CREATE TABLE book (
     CONSTRAINT FK_publisher_name1 FOREIGN KEY (book_PublisherName) REFERENCES publisher(publisher_PublisherName) ON UPDATE CASCADE ON DELETE CASCADE
 );
 
+--Set BookID to begin at 43 to practice not starting at 1 for data entry--
+
+ALTER TABLE book AUTO_INCREMENT=43;
+
 CREATE TABLE library_branch (
     library_branch_BranchID INT NOT NULL AUTO_INCREMENT,
     library_branch_BranchName VARCHAR(100) NOT NULL,
@@ -30,7 +34,7 @@ CREATE TABLE borrower (
     PRIMARY KEY (borrower_CardNo)
 );
 
---For practice, set borrowers card numbers to begin at 100--
+--Set borrowers card numbers to begin at 100--
 
 ALTER TABLE borrower AUTO_INCREMENT=100;
 
