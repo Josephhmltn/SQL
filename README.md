@@ -1,3 +1,3 @@
 # SQL Projects
-MySQL Databse and Workbench
-MS VSCodw
+MySQL Databse and Workbench;
+MS VSCod
