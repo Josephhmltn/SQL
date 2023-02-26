@@ -1,3 +1,3 @@
 # SQL Projects
-MySQL Databse and Workbench;
-MS VSCod
+	MySQL Database and Workbench
+	MS VSCode
